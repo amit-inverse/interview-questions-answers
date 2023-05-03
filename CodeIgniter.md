@@ -25,6 +25,7 @@
     A View in CodeIgniter is responsible for displaying data to the user. It receives data from the Controller component and renders it in a user-friendly way, such as through an HTML page.
 
 7. **What is the routing in CodeIgniter?**
+    
     Routing in CodeIgniter is the process of determining which Controller and method should handle a particular user request. It allows you to define custom URLs for your application and map them to specific Controller methods.
 
 8. **What are hooks in CodeIgniter?**
