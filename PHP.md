@@ -72,3 +72,35 @@
 17. **What is a trait in PHP?**
    
     A trait in PHP is a way to reuse code across multiple classes without having to use inheritance. Traits can define methods and properties that can be used in multiple classes, and can be thought of as a way to add functionality to a class without having to extend it.
+    
+18. **What is an interface in PHP?**
+    
+    An interface in PHP is a set of methods that a class must implement if it implements the interface. It is a way to define a contract for a class, specifying which methods must be implemented and what parameters they should accept and return.
+
+19. **What is autoloading in PHP?**
+    
+    Autoloading in PHP is a way to automatically include classes in a PHP script without having to manually include them using the require() or include() functions. It allows you to define a set of rules for loading classes based on their namespace and file path.
+
+20. **What is the difference between a static and dynamic website?**
+    
+    A static website is a website that is made up of HTML, CSS, and JavaScript files that are served directly to the user's browser. A dynamic website, on the other hand, is a website that generates its content dynamically, typically using a server-side scripting language like PHP. Dynamic websites can store and retrieve data from databases, and can generate customized content for individual users.
+
+21. **What is MVC in PHP?**
+    
+    MVC stands for Model-View-Controller, and is a design pattern that is commonly used in PHP frameworks like Laravel and CodeIgniter. It separates the application into three main components: the model (which represents the data and business logic), the view (which represents the user interface), and the controller (which handles user input and coordinates the interaction between the model and view).
+
+22. **What is PDO in PHP?**
+    
+    PDO stands for PHP Data Objects, and is a database abstraction layer that allows you to connect to and interact with databases using a consistent set of functions and syntax. It provides a way to connect to multiple types of databases (such as MySQL, PostgreSQL, and SQLite) using the same interface.
+
+23. **What is composer in PHP?**
+    
+    Composer is a dependency management tool for PHP that allows you to easily manage and install external libraries and dependencies for your PHP projects. It uses a JSON configuration file (called the composer.json file) to specify which libraries and dependencies your project requires, and automatically downloads and installs them for you.
+
+24. **What is PSR in PHP?**
+    
+    PSR stands for PHP Standard Recommendations, and is a set of standards and guidelines for writing PHP code that is interoperable and easy to maintain. The PSR standards cover topics such as coding style, autoloading, and logging, and are widely adopted by the PHP community.
+
+25. **What is PHPUnit in PHP?**
+    
+    PHPUnit is a unit testing framework for PHP that allows you to write automated tests for your PHP code. It provides a set of assertion functions (such as assertEquals() and assertTrue()) that you can use to test your code, and can be integrated with tools like Jenkins and Travis CI to automatically run tests as part of your build process.
